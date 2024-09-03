@@ -1,0 +1,22 @@
+main {
+    display: flex;
+    gap: 100px;
+    border: dotted blue 1px;
+    padding: 10px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px orange solid;
+}
+footer {
+    margin: 10vh;
+    display: flex;
+    justify-content: right;
+    border: dashed red 1px;
+}
+footer p {
+    margin: 0 10%;
+}
