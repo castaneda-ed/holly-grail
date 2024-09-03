@@ -1,17 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0 10px;
+
+}
 main {
     display: flex;
     gap: 100px;
     border: dotted blue 1px;
     padding: 10px;
+    height: 100%;
 }
 h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    height: 10vh;
     border: 1px orange solid;
 }
 footer {
+    height: 10vh;
     margin: 10vh;
     display: flex;
     justify-content: right;
